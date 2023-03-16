@@ -1,0 +1,52 @@
+.header{
+    height: 80px;
+    border-bottom: 1px solid #828282;
+}   
+.header a{
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.header a:first-child{
+    color: #070707;
+    font-weight: bold;
+}
+.lang{
+    transform: rotate(-90deg);
+    margin: 0;
+}
+.AboutMe{
+    background-color: #F6F6F6;
+}
+.skillBlock{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.crBlock{
+    background-color: #F6F6F6;
+}
+.leocr{
+    flex-direction: column;
+    gap: 40px;
+}
+.btn-footer {
+    margin: 0px auto 0px auto;
+    background: #070707;
+    color: #F6F6F6;
+    border-radius: 15px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.leo1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
